@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "756048400272",
+    "firebase_url": "https://mlkit-66b95.firebaseio.com",
+    "project_id": "mlkit-66b95",
+    "storage_bucket": "mlkit-66b95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756048400272:android:2a2bd7f3dd32ef11",
+        "android_client_info": {
+          "package_name": "com.example.chatterbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756048400272-1h3hq7vbqppamhcf48bo2l2qjnpq117g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatterbox",
+            "certificate_hash": "75d03d1452127e498bb445ecc39a420f9f7a8d6a"
+          }
+        },
+        {
+          "client_id": "756048400272-p1r7lvmbdf89639s9o621u9v1v5nvq04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn8MtfkjGa3jGTm_CgRMKZoJIZ6OJCqh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756048400272-p1r7lvmbdf89639s9o621u9v1v5nvq04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

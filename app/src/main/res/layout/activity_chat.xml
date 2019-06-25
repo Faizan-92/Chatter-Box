@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".ChatActivity">
+
+    <include
+        android:id="@+id/chat_activity_toolbar"
+        layout="@layout/app_bar_layout"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="6dp"
+        android:id="@+id/chat_activity_recycler_view"
+        android:layout_above="@id/chat_activity_layout"
+        android:layout_below="@+id/chat_activity_toolbar"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chat_activity_layout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/background_light"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentStart="true"
+            android:id="@+id/send_files_button"
+            android:backgroundTint="@android:color/white"
+            android:src="@drawable/send_files"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/chat_activity_send_message_text"
+            android:maxLines="5"
+            android:padding="5dp"
+            android:layout_toStartOf="@id/chat_activity_send_message_button"
+            android:layout_toEndOf="@+id/send_files_button"
+            android:hint="Write your message here"/>
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentEnd="true"
+            android:backgroundTint="@android:color/white"
+            android:id="@+id/chat_activity_send_message_button"
+            android:src="@drawable/send_message"/>
+
+    </RelativeLayout>
+</RelativeLayout>
